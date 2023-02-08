@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.text,
+.pass {
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    border-radius: 24px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.text:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.pass:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.sub {
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    border-radius: 24px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.sub:hover {
+    background: #2ecc71;
+}
